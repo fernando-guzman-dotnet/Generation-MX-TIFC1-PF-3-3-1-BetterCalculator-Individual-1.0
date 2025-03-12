@@ -1,27 +1,29 @@
-# Instructions
-Now is your opportunity to build a better calculator. Your calculator can work however you wish it to but it should be usable as a calculator.
 
-Firstly, we're going to separate out of our *interactive* logic into the `main()` function, like so:
+# Instrucciones
 
-```
+Ahora tienes la oportunidad de construir una mejor calculadora. Tu calculadora puede funcionar como tú desees, pero **debe ser utilizable como una calculadora**.
+
+Primero, vamos a **separar la lógica interactiva** dentro de la función `main()`, de la siguiente manera:
+
+```python
 def main():
   print("Hello learners!")
 
-if __name__=="__main__":
+if __name__ == "__main__":
   main()
 ```
 
-This is Python *boilerplate* code, which will only run when the program is invoked by a person. All your code should now be inside a function - either this `main()` function (where you can put things like input statements) or another function.
+Este es un código *boilerplate* (plantilla básica) de Python, que **solo se ejecutará cuando el programa sea invocado por una persona**. Todo tu código ahora debe estar dentro de una función: ya sea en la función `main()` (donde puedes poner cosas como entradas del usuario) o en otra función.
 
-Automatic grading will be scored out of 8, and will test the functionality of the following functions:
+La calificación automática se puntuará sobre 8, y evaluará la funcionalidad de las siguientes funciones:
 
-* `addmultiplenumbers([num, num, ..])` - this function must exist in your program, it should take a list of numbers as input, and it should output the sum of those numbers.
-* `multiplymultiplenumbers([num, num, ..])` - this function must exist in your program, it should take a list of numbers as input, and it should output the result of multiplying each number in turn with the following number.
-* `isiteven(num)` - this function must exist in your program, it should take a single number as input, and it should output a boolean value - `True` if the number is an even, whole number, `False` otherwise.
-* `isitaninteger(num)` - this function must exist in your program, it should take a single number as input, and it should output a boolean value - `True` if the number is an integer, `False` otherwise.
+* `addmultiplenumbers([num, num, ..])` - Esta función debe existir en tu programa, debe recibir una lista de números como entrada y devolver la **suma de esos números**.
+* `multiplymultiplenumbers([num, num, ..])` - Esta función debe existir en tu programa, debe recibir una lista de números como entrada y devolver el **resultado de multiplicar cada número en secuencia**.
+* `isiteven(num)` - Esta función debe existir en tu programa, debe recibir un solo número como entrada y devolver un valor booleano: `True` si el número es **entero y par**, `False` en caso contrario.
+* `isitaninteger(num)` - Esta función debe existir en tu programa, debe recibir un solo número como entrada y devolver un valor booleano: `True` si el número es **un entero**, `False` en caso contrario.
 
-**Remember** This project will be automatically graded, and computers are very literal!
+**¡Recuerda!** Este proyecto será calificado automáticamente, ¡y las computadoras son muy literales!
 
-**Note:** Use the tests! There's nothing wrong with running the tests until they pass. It's not cheating!
+**Nota:** ¡Usa las pruebas! No hay nada de malo en ejecutar las pruebas hasta que pasen. **¡No es trampa!**
 
-**Note:** If you get stuck getting one function to work, try working on a different one. You might find you can solve later functions more quickly than earlier ones.
+**Nota:** Si te atoras haciendo que una función funcione, intenta trabajar en otra diferente. Podrías darte cuenta de que puedes resolver las funciones posteriores más rápido que las primeras.
